@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Sukhachev
+    given-names: Pavel
+    orcid: "https://orcid.org/0009-0006-4546-9963"
+title: "Coordination Intelligence: An Autonomous Agent Framework for Organizational Blocker Resolution"
+version: 0.1.0
+date-released: "2026-02-09"
+license: Apache-2.0
+url: "https://github.com/pavelsukhachev/coordination-intelligence"

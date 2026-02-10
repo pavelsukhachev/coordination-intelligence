@@ -1,0 +1,77 @@
+# Company DNA Configuration - Acme Corp
+# This YAML file defines the organizational values, decision principles,
+# authority thresholds, and communication preferences that guide the
+# Coordination Intelligence framework.
+
+name: "Acme Corp"
+
+core_values:
+  values:
+    - transparency
+    - speed
+    - quality
+    - collaboration
+  priorities:
+    - unblock people fast
+    - ship reliable software
+    - learn from every failure
+  anti_patterns:
+    - blame
+    - bureaucracy
+    - siloing
+
+decision_principles:
+  - name: speed_first
+    description: "Prefer faster resolution paths over perfect ones."
+    weight: 3.0
+    keywords:
+      - fast
+      - quick
+      - immediate
+      - unblock
+      - expedite
+
+  - name: people_first
+    description: "Prioritize team member well-being and growth."
+    weight: 2.0
+    keywords:
+      - help
+      - support
+      - assist
+      - team
+      - mentor
+
+  - name: quality_gate
+    description: "Never ship broken code to unblock a deadline."
+    weight: 2.5
+    keywords:
+      - quality
+      - test
+      - review
+      - verify
+      - validate
+
+authority:
+  immediate_max_severity: medium
+  standard_max_severity: high
+  require_approval_for:
+    - reassign
+    - escalate
+  auto_escalate_after_hours: 24.0
+
+escalation:
+  levels:
+    - team_lead
+    - engineering_manager
+    - director
+    - vp_engineering
+  skip_allowed: false
+  max_skip_levels: 1
+
+communication:
+  tone: professional
+  urgency_threshold_for_sms: critical
+  prefer_async: true
+  meeting_as_last_resort: true
+  max_message_length: 500
+  include_context: true
